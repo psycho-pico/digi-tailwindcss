@@ -132,3 +132,9 @@ dist
 # editor
 .vscode
 .idea
+
+# macos
+.DS_Store
+
+# pnpm
+pnpm-lock.yaml
