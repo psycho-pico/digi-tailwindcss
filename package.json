@@ -1,0 +1,16 @@
+{
+    "name": "digi-tailwindcss",
+    "version": "0.0.1",
+    "private": true,
+    "scripts": {
+        "build:base": "tailwindcss -i ./src/base.css -o ./dist/base.css",
+        "build:components": "tailwindcss -i ./src/components.css -o ./dist/components.css",
+        "build:utilities": "tailwindcss -i ./src/utilities.css -o ./dist/utilities.css",
+        "build": "npm run build:base && npm run build:components && npm run build:utilities"
+    },
+    "dependencies": {
+        "tailwindcss": "^3.4.16",
+        "postcss": "^8.4.49",
+        "autoprefixer": "^10.4.20"
+    }
+}
